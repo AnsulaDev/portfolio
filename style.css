@@ -47,7 +47,7 @@ html{
 
 .about-heading{
     font-size: 3rem;
-    color: #1761EB;
+    color: #fff;
     font-weight: bold;
 
     text-transform: uppercase;
@@ -58,7 +58,7 @@ html{
 .skill-heading{
     font-size: 3rem;
     font-weight: bold;
-    color: #333;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     margin: 6rem;
@@ -67,9 +67,10 @@ html{
 }
 
 #skills {
+    
     font-size: 2.5rem;
     font-weight: bold;
-    color: #1761EB;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     margin: 5rem;
@@ -77,6 +78,14 @@ html{
    
     text-align: center;
     
+}
+.skill-btn{
+    background-color: #e98615;
+    margin:10px;
+    padding:2px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+
 }
 .skill-flex{
     display: flex;
@@ -91,14 +100,14 @@ html{
 .section-1 {
     width: 100%;
     height: 70vh;
-    background-color: #faf60e;
+    background-color: #fdfcfa;
     position: relative;
   }
   
   .floating-bg {
     width: 150vw;
     height: 150vw;
-    background-color:#369deb;
+    background-color:#575554;
     position: absolute;
     top: -125vw;
     left: calc(50% - 75vw);
@@ -110,7 +119,7 @@ html{
     content: "";
     width: 100%;
     height: 100%;
-    background-color:  #1761EB;
+    background-color:  #f07c1d;
     position: absolute;
     top: 0;
     left: 0;
@@ -140,7 +149,7 @@ html{
     font-size: 2.2rem;
     font-weight: 700;
     letter-spacing: 0.2rem;
-    color: #faf60e;
+    color: #fff;
     width: 1.5rem;
     word-wrap: break-word;
     text-align: center;
@@ -176,7 +185,7 @@ html{
     height: 60vh;
     width: 100%;
     bottom: 0;
-    background-color: #333;
+    background-color:#f07c1d ;
     position: relative;
    
   }
@@ -197,7 +206,7 @@ html{
 }
 
 .svgclass .shape-fill {
-    fill: #faf60e;
+    fill: #ffffff;
 }
  
   
@@ -207,7 +216,7 @@ html{
     height: 25rem;
     object-fit: cover;
     border-radius: 50%;
-    border: 1rem dotted #faf60e;
+    border: 1rem dotted #fff;
     
     padding: 0.5rem;
     opacity: 0.9;
@@ -222,6 +231,7 @@ html{
   }
  
   .person-name{
+
     font-size: 5rem;
     color: #fff;
     
@@ -241,13 +251,14 @@ html{
     
 }
 .ansula{
-    color:#1761EB ;
+    font-weight: bold;
+    color:#5e5b59 ;
 }
 .section-1-btn{
     font-size: 1.7rem;
     font-weight: 700;
     color: #fff;
-    background-color: #1761EB;
+    background-color: #333;
     border:0.3rem solid #fff;
     padding: 0.5rem 1rem;
     text-transform: uppercase;
@@ -268,7 +279,7 @@ html{
     width: 100%;
     height: 100%;
     padding: 15rem 0 10rem 0;
-    background-color: #faf60e;
+    background-color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -293,7 +304,7 @@ html{
 }
 
 .aboutsvg .shape-fill {
-    fill:#333;
+    fill:#f07c1d;
 }
 
 /* end of section2 */
@@ -302,7 +313,7 @@ html{
     width: 100%;
     height: 100%;
     padding:10rem 0;
-    background-color:#1761EB;
+    background-color:#f07c1d;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -320,13 +331,13 @@ html{
     align-items: center;
     margin: 1rem;
     background-color: #fff;
-    box-shadow: .3rem .3rem .5rem #369deb;;
+    box-shadow: .3rem .3rem .5rem #4e4d4c;
     position: relative;
     overflow: hidden;
     transition: box-shadow 0.5s;
 }
 .project:hover{
-    box-shadow: 1rem 1rem 1rem #369deb;;
+    box-shadow: 1rem 1rem 1rem #696867;
 }
 .project-text{
     text-align: center;
@@ -343,12 +354,12 @@ html{
 .project-name{
     font-size: 3rem;
     font-weight: 700;
-    color: #1761EB;
+    color: #f07c1d;
     text-transform: capitalize;
 }
 .project-technologies{
     font-size: 1.8rem;
-    color: #1761EB;
+    color: #f07c1d;
 }
 .project-img{
     width: 60rem;
@@ -362,7 +373,7 @@ html{
     font-weight: 500;
     color: #333;
     letter-spacing: 0.1rem;
-    border: 0.3rem solid #1761EB;
+    border: 0.3rem solid #49494b;
     padding: 0.1rem;
     background-color: #fff;
     position: absolute;
@@ -390,7 +401,7 @@ html{
 }
 
 .projectsvg .shape-fill {
-    fill:#faf60e;
+    fill:#333;
 }
 
 /* end of section3 */
@@ -413,7 +424,7 @@ html{
 }
 
 .sericesvg .shape-fill {
-    fill: #1761EB;
+    fill: #f07c1d;
 }
 /* end of section4 */
 /* section5*/
@@ -431,7 +442,7 @@ html{
 .social-media-link{
     margin: 0.2rem;
     padding: 0.7rem;
-    background-color: #1761EB;
+    background-color: #f07c1d;
     border-radius: 0.5rem;
     display: inline-block;
 }

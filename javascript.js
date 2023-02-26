@@ -1,4 +1,3 @@
-
 const section = document.querySelectorAll("section");
 
 window.addEventListener("scroll", ()=>{
@@ -15,9 +14,6 @@ const sr = ScrollReveal({
     duration: 2000,
     reset: true
 });
-
-
-
 
 
 
